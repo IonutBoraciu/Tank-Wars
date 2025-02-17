@@ -51,7 +51,7 @@ int main(int argc, char **argv)
 
 
     // Create a new 3D world and start running it
-    World* world = new m1::Lab7;
+    World* world = new m1::Tema1;
     if (SDL_Init(SDL_INIT_AUDIO) < 0) {
         printf("not working sdl init audio\n");
     }
